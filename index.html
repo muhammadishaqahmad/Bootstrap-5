@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+	<link rel="shortcut" href="./Images/favicon-32x32.png" type="image">
+
+
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+			<div class="container">
+				<a class="navbar-brand" href="#">
+					<img src="./Images/android-chrome-192x192.png" width="40" class="img-fluid me-3" alt="" />
+					Mi <span class="text-primary">Travels</span></a>
+				<button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+					data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="collapsibleNavId">
+					<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" href="#home" aria-current="page">Home <span
+									class="visually-hidden"></span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#des">Destination</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#pac">Packages</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#sp">special offer</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#sub">subscription</a>
+						</li>
+					</ul>
+					<button class="btn btn-primary my-2 my-sm-0" type="submit">
+						Book Now
+					</button>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<div id="home" class="jumbotron text-white" style="
+          background-image: url('./Images/Dubai.jpg');
+          background-size: cover;
+          background-position: center;
+          height: 100vh;
+        ">
+			<h1 class="display-3">Mi Travels!</h1>
+			<h1 class="display-4">Explore the Beauty of the Beautiful World.</h1>
+			<hr class="my-4" />
+			<p class="lead">
+				It uses utility classes for typography and spacing to space content
+				out within the larger container.
+			</p>
+			<a class="btn btn-primary btn-lg" href="#" role="button">Explore Now</a>
+		</div>
+		<section id="service" class="service">
+			<div class="container">
+
+				<div class="row text-center">
+
+					<div class="col-md-4 col-sm-4">
+						<div class="card">
+							<i class="bi bi-cloud-drizzle" style="font-size: 100px;"></i>
+							<div class="card-body">
+								<h2 class="card-title">
+									<a href="#">
+										Amazing Tour Packages
+									</a>
+								</h2>
+								<p class="card-text">Duis aute irure dolor in velit esse cillum dolore eu fugiat nulla.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-4">
+						<div class="card">
+							<i class="bi bi-buildings" style="font-size: 100px;"></i>
+							<div class="card-body">
+								<h2 class="card-title">
+									<a href="#">
+										Book Top Class Hotels
+									</a>
+								</h2>
+								<p class="card-text">Duis aute irure dolor in velit esse cillum dolore eu fugiat nulla.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-4">
+						<div class="card">
+							<i class="bi bi-airplane" style="font-size: 100px;"></i>
+							<div class="card-body">
+								<h2 class="card-title">
+									<a href="#">
+										Online Flight Booking
+									</a>
+								</h2>
+								<p class="card-text">Duis aute irure dolor in velit esse cillum dolore eu fugiat nulla.
+								</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<br>
+
+		<section class="container" id="des">
+			<div class="text-center">
+				<h3 class="tex-dark fw-bold">Top Distantion</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum facere modi commodi quo facilis
+					sint
+					iusto quam aliquid sit placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos,
+					quaerat.</p>
+				<br>
+			</div>
+
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+						aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+						aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+						aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner" style="height: auto;">
+					<div class="carousel-item active">
+						<img src="./Images/Bulding.jpg" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>First slide label</h5>
+							<p>Some representative placeholder content for the first slide.</p>
+						</div>
+					</div>
+					<div class="carousel-item" style="height: auto;">
+						<img src="./Images/Dubai.jpg" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Second slide label</h5>
+							<p>Some representative placeholder content for the second slide.</p>
+						</div>
+					</div>
+					<div class="carousel-item" style="height: auto;">
+						<img src="./Images/Img.jpg" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Third slide label</h5>
+							<p>Some representative placeholder content for the third slide.</p>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#d" role="button" data-bs-target="#carouselExampleCaptions"
+					data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden"></span>
+				</a>
+				<a class="carousel-control-next" href="#d" role="button" data-bs-target="#carouselExampleCaptions"
+					data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden"></span>
+				</a>
+
+			</div>
+		</section>
+		<br><br>
+		<section id="pac">
+			<div class="container">
+				<div class="text-center">
+					<h2>Packages</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ad commodi totam quidem cum
+						molestiae inventore corporis fugit tempora vel.</p>
+				</div>
+				<div class="row row-cols-1 row-cols-md-3 g-4">
+					<div class="col">
+						<div class="card h-100">
+							<img src="./Images/1.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h3 class="text-primary">Dubai <span class="tex-dark">$499</span></h3>
+								<hr>
+								<p><span><i class="bi-cloud-sun" style="font-size: 2rem; color: black;"></i>5 daays 6
+										nights</span></p>
+								<p><span><i class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i>5 star
+										accomodation</span></p>
+								<p><span><i class="bi-apple" style="font-size: 1.5rem; color: black;"></i>food
+										facilities</span></p>
+								<button class="btn btn-lg btn-primary">Book Now</button>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card h-100">
+							<img src="./Images/2.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h3 class="text-primary">Garmany<span class="tex-dark">$799</span></h3>
+								<hr>
+								<p><span><i class="bi-cloud-sun" style="font-size: 2rem; color: black;"></i>5 daays 6
+										nights</span></p>
+								<p><span><i class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i>5 star
+										accomodation</span></p>
+								<p><span><i class="bi-apple" style="font-size: 1.5rem; color: black;"></i>food
+										facilities</span></p>
+								<button class="btn btn-lg btn-primary">Book Now</button>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card h-100">
+							<img src="./Images/3.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h3 class="text-primary">England <span class="tex-dark">$799</span></h3>
+								<hr>
+								<p><span><i class="bi-cloud-sun" style="font-size: 2rem; color: black;"></i>5 daays 6
+										nights</span></p>
+								<p><span><i class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i>5 star
+										accomodation</span></p>
+								<p><span><i class="bi-apple" style="font-size: 1.5rem; color: black;"></i>food
+										facilities</span></p>
+								<button class="btn btn-lg btn-primary">Book Now</button>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="row row-cols-1 row-cols-md-3 g-4">
+					<div class="col">
+						<div class="card h-100">
+							<img src="./Images/frence.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h3 class="text-primary">france <span class="tex-dark">$999</span></h3>
+								<hr>
+								<p><span><i class="bi-cloud-sun" style="font-size: 2rem; color: black;"></i>5 daays 6
+										nights</span></p>
+								<p><span><i class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i>5 star
+										accomodation</span></p>
+								<p><span><i class="bi-apple" style="font-size: 1.5rem; color: black;"></i>food
+										facilities</span></p>
+								<button class="btn btn-lg btn-primary">Book Now</button>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card h-100">
+							<img src="./Images/Dubai.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h3 class="text-primary">Pakistan <span class="tex-dark">$599</span></h3>
+								<hr>
+								<p><span><i class="bi-cloud-sun" style="font-size: 2rem; color: black;"></i>5 daays 6
+										nights</span></p>
+								<p><span><i class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i>5 star
+										accomodation</span></p>
+								<p><span><i class="bi-apple" style="font-size: 1.5rem; color: black;"></i>food
+										facilities</span></p>
+								<button class="btn btn-lg btn-primary">Book Now</button>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="card h-100">
+							<img src="./Images/it.jpg" class="card-img-top" alt="...">
+							<div class="card-body">
+								<h3 class="text-primary">Japan<span class="tex-dark">$899</span></h3>
+								<hr>
+								<p><span><i class="bi-cloud-sun" style="font-size: 2rem; color: black;"></i>5 daays 6
+										nights</span></p>
+								<p><span><i class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+											class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i>5 star
+										accomodation</span></p>
+								<p><span><i class="bi-apple" style="font-size: 1.5rem; color: black;"></i>food
+										facilities</span></p>
+								<button class="btn btn-lg btn-primary">Book Now</button>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<br><br>
+		<section id="sp">
+			<div class="container" style="
+          background-image: url('./Images/4.jpg');
+          background-size: cover;
+          background-position: center;
+          height: auto; border-radius: 1rem;" >
+				<div class="col-sm-8">
+					<h1 class="text-dark ">Thiland </h1>
+					<hr>
+					<h3 class="text-dark">Regular $1499</h3>
+					<h3 class="text-white">40%</h3>
+					<h3 class="text-white">OFF</h3>
+					<h3 class="text-dark">$999</h3>
+
+					<hr>
+					<span class="text-dark"><i class="bi-cloud-sun" style="font-size: 2rem; color: yellow;"></i>5 daays
+						6
+						nights</span></p>
+					<p><span class="text-dark><i class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i
+								class="bi-star-fill" style="font-size: 1rem; color: yellow;"></i><i class="bi-star-fill"
+								style="font-size: 1rem; color: yellow;"></i><i class="bi-star-fill"
+								style="font-size: 1rem; color: yellow;"></i><i class="bi-star-fill"
+								style="font-size: 1rem; color: yellow;"></i>5 star
+							accomodation</span></p>
+					<p><span class="text-dark"><i class="bi-apple" style="font-size: 1.5rem; color: black;"></i>food
+							facilities</span></p>
+					<p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero voluptatem
+						quas illo architecto
+						praesentium! Repellat ad repellendus in. Amet repellat perferendis dolorem minus asperiores
+						consequuntur ipsa rem sint? Itaque repellat perferendis, eveniet, ex facilis totam earum
+						laboriosam quaerat quibusdam nisi voluptatum ea officia soluta amet unde dolor corrupti illum,
+						quo natus delectus quia pariatur? Dolorem sunt cumque eos ut nobis!</p>
+					<button class="btn btn-lg btn-primary">make tour</button>
+					<button class="btn btn-lg btn-primary">Book Now</button>
+
+
+				</div>
+			</div>
+		</section>
+		<br>
+		<section id="sub" class="subscribe">
+			<div style="
+          background-color: rgb(0, 77, 128);
+          background-size: cover;
+          background-position: center;
+          height: auto;  border-radius: 1rem;">
+				<div class="subscribe-title text-center text-white">
+					<h2>
+						Join our Subscribers List to Get Regular Update
+					</h2>
+					<p>
+						Subscribe Now. We will send you the Best offer for your Trip
+					</p>
+				</div>
+				<form>
+					<div class="row">
+						<div class="col-md-6 offset-md-3 col-sm-8 offset-sm-2">
+							<div class="input-group mb-3">
+								<input type="email" class="form-control" placeholder="Enter your Email Here">
+								<button class="btn btn-primary" type="button">Subscribe</button>
+								<div class="clearfix"></div>
+								<i class="fa fa-envelope"></i>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<footer class="footer-copyright">
+			<div class="container">
+				<div class="footer-content">
+					<div class="row">
+
+						<div class="col-sm-3">
+							<div class="single-footer-item">
+								<div class="footer-logo text-center">
+									MI<span class="text-primary">Travels</span>
+									</a>
+									<p class="text-success">
+										best travel agency
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-3">
+							<div class="single-footer-item">
+								<h2>link</h2>
+								<div class="single-footer-txt">
+									<p>home</p>
+									<p>destination</p>
+									<p>spacial packages</p>
+									<p>special offers</p>
+									<p>blog</p>
+									<p>contacts</p>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="col-sm-3">
+							<div class="single-footer-item">
+								<h2>popular destination</h2>
+								<div class="single-footer-txt">
+									<p>china</p>
+									<p>venezuela</p>
+									<p>brazil</p>
+									<p>australia</p>
+									<p>london</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-sm-3">
+							<div class="single-footer-item text-center">
+								<h2 class="text-left">contacts</h2>
+								<div class="single-footer-txt text-left">
+									<p>+92 333 3838453</p>
+									<p class="foot-email"><a href="#">info@mitravels.com</a></p>
+									<p>ISlamia College and University</p>
+									<p>Peshawar, Pakistan</p>
+								</div>
+
+							</div>	
+		</footer>
+		<hr>
+		<div class="foot-icons ">
+			<p class="text-center">&copy; 2024. All Right Reserved</p>
+		
+		</div>
+		</div>
+		
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+			integrity="sha384­-1d8iOFmkTqzjeM0GgT8M7FqK0lJ5gD7AwnzQkpgxxlElRgCR8YHu8EZ3U3gjyKUe"
+			crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"
+			integrity="sha384­-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"></script>
+
+
+	</main>
+</body>
+
+</html>
